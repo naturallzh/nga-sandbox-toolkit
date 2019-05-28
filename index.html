@@ -9,13 +9,14 @@
 </head>
 
 <body>
-<div id="index-body" v-cloak>
+<div id="index-body" :style='"background-image: url("+bgURL+")"' v-cloak>
   <div id="display-board-1">
     <countdown-v1 v-for="item in inputProps" :info="item"></countdown-v1>
   </div>
 </div>
 </body>
 
+<script type="text/javascript" src="jquery-3.1.1.min.js"></script>
 <script type="text/javascript" src="vue.min.js"></script>
 <script type="text/javascript" src="component.js"></script>
 <script type="text/javascript" src="index.js"></script>

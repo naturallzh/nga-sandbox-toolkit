@@ -14,7 +14,7 @@
     border-radius: 5px;
     background: black;
     padding: 10px 5px;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     color: white;
     font-size: 20px;
     margin: 10px 0; }
@@ -31,9 +31,9 @@
       line-height: 36px;
       color: white;
       font-size: 20px;
-      margin-left: 2px;
-      letter-spacing: 2px; }
+      margin-left: 2px; }
     #countdown-v1-box #time-board .colon {
       font-size: 20px;
       color: black;
-      margin: 0 8px 0 10px; }
+      margin: 0 6px 0 8px;
+      font-weight: bold; }
