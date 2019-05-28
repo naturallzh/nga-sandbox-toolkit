@@ -30,6 +30,24 @@ let vm = new Vue({
         end_mi: "30",
       },
 
+      {
+        title: "卓别林UP",
+        end_y: "2019",
+        end_m: "06",
+        end_d: "7",
+        end_h: "8",
+        end_mi: "30",
+      },
+
+      {
+        title: "卓别林UP",
+        end_y: "2019",
+        end_m: "06",
+        end_d: "7",
+        end_h: "8",
+        end_mi: "30",
+      },
+
       // 创建一个新倒计时板的时候在上一行插入
 
     ];
