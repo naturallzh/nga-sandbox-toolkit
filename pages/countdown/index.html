@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="../../lib/base.css"/>
+  <link rel="stylesheet" type="text/css" href="../../lib/component.css"/>
+  <link rel="stylesheet" type="text/css" href="index.css"/>
+</head>
+
+<body>
+<div id="index-body" :style='"background-image: url("+bgURL+")"' v-cloak>
+  <div id="display-board-1">
+    <countdown-v1 v-for="item in inputProps" :info="item"></countdown-v1>
+  </div>
+</div>
+</body>
+
+<script type="text/javascript" src="../../lib/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="../../lib/vue.min.js"></script>
+<script type="text/javascript" src="../../lib/component.js"></script>
+<script type="text/javascript" src="index.js"></script>
+</html>
