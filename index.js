@@ -2,7 +2,7 @@ let vm = new Vue({
   el: '#index-body',
   data: {
     inputProps: [],
-    bgURL: "bg_1.jpg",          // 背景图片的文件名 一定要用双引号包裹
+    bgURL: "map_msz.jpg",          // 背景图片的文件名 一定要用双引号包裹
   },
 
   beforeCreate: function () {
