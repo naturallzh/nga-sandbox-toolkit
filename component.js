@@ -63,6 +63,7 @@ Vue.component('countdown-v1', {
       );
       const curDate = new Date();
       this.countdownMs = endDate - curDate;
+      this.countdownMs < 500 ? this.countdownMs=0:"";
     },
 
     addZero: function (num) {
@@ -87,6 +88,6 @@ Vue.component('countdown-v1', {
   },
   beforeMount () {},
   mounted (){
-    setInterval(()=>{this.countdownMs -= 500},500);
+    setInterval(()=>{this.countdownMs>500?this.countdownMs -= 500:this.countdownMs=0},500);
   },
 });

@@ -44,9 +44,9 @@ let vm = new Vue({
         title: "川端康成UP",
         end_y: "2019",
         end_m: "5",
-        end_d: "29",
-        end_h: "8",
-        end_mi: "30",
+        end_d: "28",
+        end_h: "23",
+        end_mi: "22",
       },
       
       // 创建一个新倒计时板的时候在上一行插入
