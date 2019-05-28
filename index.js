@@ -2,6 +2,7 @@ let vm = new Vue({
   el: '#index-body',
   data: {
     inputProps: [],
+    bgURL: "",
   },
 
   beforeCreate: function () {

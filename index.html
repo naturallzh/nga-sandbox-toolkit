@@ -10,7 +10,9 @@
 
 <body>
 <div id="index-body" v-cloak>
-  <countdown-v1 v-for="item in inputProps" :info="item"></countdown-v1>
+  <div id="display-board-1">
+    <countdown-v1 v-for="item in inputProps" :info="item"></countdown-v1>
+  </div>
 </div>
 </body>
 
